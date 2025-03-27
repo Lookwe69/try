@@ -1,0 +1,37 @@
+{
+	"name": "@lookwe/try",
+	"description": "try operator function",
+	"homepage": "https://github.com/Lookwe69/try",
+	"bugs": {
+		"url": "https://github.com/Lookwe69/try/issues"
+	},
+	"keywords": [],
+	"author": "Lookwe",
+	"version": "0.0.0-development",
+	"type": "module",
+	"scripts": {
+		"semantic-release": "semantic-release"
+	},
+	"files": [
+		"index.js",
+		"index.d.ts",
+		"result.js",
+		"result.d.ts",
+		"try.js",
+		"try.d.ts"
+	],
+	"main": "index.js",
+	"module": "index.js",
+	"types": "index.d.ts",
+	"exports": {
+		".": "./index.js",
+		"./result": "./result.js",
+		"./try": "./try.js"
+	},
+	"publishConfig": {
+		"access": "public"
+	},
+	"devDependencies": {
+		"semantic-release": "^24.2.3"
+	}
+}
