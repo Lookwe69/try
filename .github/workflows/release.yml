@@ -14,7 +14,6 @@ jobs:
             contents: write
             issues: write
             pull-requests: write
-        if: ${{ github.event.workflow_run.conclusion == 'success' }}
         steps:
             - uses: actions/checkout@v4
             - run: git config --global --add safe.directory "*"
