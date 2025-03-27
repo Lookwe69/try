@@ -1,7 +1,7 @@
 /// <reference path="./result.d.ts" />
 
 /** @type {ResultConstructor} */
-class Result {
+export class Result {
 	constructor(ok, error, value) {
 		this.ok = ok;
 		this.error = error;
